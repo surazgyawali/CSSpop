@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="csspop.css" rel="stylesheet">
+
+    <title>CSS-BOX</title>
+</head>
+
+<body>
+    <div class="csspop">
+        <a id="image1" href="#image1">
+            <img class="csspop_thumb" src="https://dummyimage.com/200x200/f536b8/d7f7ea.png&text=Image1" alt="THUMB_IMAGE">
+            <span class="csspop_full ">
+                <img src="https://dummyimage.com/600x600/f536b8/d7f7ea.png&text=Image1+Full">
+            </span>
+        </a>
+        <a class="csspop_close" href="#void"></a>
+        <!-- next arrow for image gallery when multiple images -->
+        <a class="csspop_next" href="#image2">&gt;</a>
+    </div>
+    <!-- if image gallery add like this -->
+    <div class="csspop">
+        <a id="image2" href="#image2">
+            <img class="csspop_thumb" src="https://dummyimage.com/200x200/f536b8/d7f7ea.png&text=Image2">
+            <span class="csspop_full">
+                <img src="https://dummyimage.com/600x600/f536b8/d7f7ea.png&text=Image2+Full">
+            </span>
+        </a>
+        <a class="csspop_close" href="#void"></a>
+        <a class="csspop_prev" href="#image1">&lt;</a>
+        <a class="csspop_next" href="#image3">&gt;</a>
+    </div>
+
+    <div class="csspop">
+        <a id="image3" href="#image3">
+            <img class="csspop_thumb" src="https://dummyimage.com/200x200/f536b8/d7f7ea.png&text=Image3">
+            <span class="csspop_full">
+                <img src="https://dummyimage.com/600x600/f536b8/d7f7ea.png&text=Image3+Full">
+            </span>
+        </a>
+        <a class="csspop_close" href="#void"></a>
+        <a class="csspop_prev" href="#image2">&lt;</a>
+    </div>
+</body>
+
+</html>
